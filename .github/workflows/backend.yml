@@ -4,10 +4,14 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "w.js"
 
   pull_request:
     branches:
       - main
+    paths:
+      - "w.js"
 
 jobs:
   test:
